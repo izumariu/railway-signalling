@@ -14,9 +14,9 @@ There are four types of light signals:
 - the _main signal (Signal fixe principal / SFP)_, which regulates the traffic flow,
 - the _distant signal (Signal fixe avancé / SFAv)_, which announces the aspect of the next main signal,
 - the _repeated distant signal (Signal fixe avancé répétiteur / SFAvR))_, which repeats the last distant signal and is only placed if the main signal isn't visible from a certain distance, and
-- the _barred track signal (Signal fixe de voie barrée / SFVb)_, which is a signal used to control shunting movements.
+- the _shunting signal (Signal fixe de voie barrée / SFVb)_, which is a signal used to control shunting movements.
 
-The SFP and SFVb signals can be combined, in this case the main signal is referred to as main signal with barred track signal (SFPVb) . Similarly, the main and distant signals can be fixed on the same mast.
+The SFP and SFVb signals can be combined, in this case the main signal is referred to as main signal with shunting signal (SFPVb) . Similarly, the main and distant signals can be fixed on the same mast.
 
 If a signal or sign must not be taken into account, even when lit, it is covered by a Saint Andrew's cross (RM14: Cancellation marker for fixed signals out of order) which also cancels the complementary signals; if several signals are placed on a mast, only the one or those covered by a cross are cancelled.
 
@@ -66,6 +66,26 @@ The main signal protects e.g. a block or a switch.
 |![SFP Position 1][SFP_P1]|SFP Position 1: Absolute stop. If the signal is switched off, it should be considered as displaying this aspect.|
 |![SFP Position 2][SFP_P2]|SFP Position 2: All clear.|
 |![SFP Position 3][SFP_P3]|SFP Position 3: Crossing switches at a reduced speed of 40 km/h as a general rule; speed to be applied from the chevron (RF1) to the next signal or speedometer.|
+
+### Shunting signals
+
+The shunting signal is used to control trains during shunting operations or to protect a track or station where several trains may enter. These lights can also be placed horizontally, with the blue light on the left and the white light on the right.
+
+|Aspect|Explanation|
+|:----:|:---------:|
+|![SFVb Position][SFVb_P1]|**SFVb Position 1:** Stop for shunting trains. If the signal is switched off, it can only be passed with a verbal command.|
+|![SFVb Position][SFVb_P2]|**SFVb Position 2:** Clear track for shunting trains.|
+
+### Main signals with shunting signals
+
+Main signals and shunting signals can be combined, mainly at station entrances or exits.
+
+|Aspect|Explanation|
+|:----:|:---------:|
+|![SFP Position 1][SFPVb_P1]|SFP Position 1: Absolute stop for trains.|
+|![SFPVb Position 2][SFPVb_P2]|SFPVb Position 2: Clear track for shunting trains, absolute stop for other trains.|
+|![SFP Position 2][SFPVb_P3]|SFP Position 2: All clear.|
+|![SFP Position 3][SFPVb_P4]|SFP Position 3: Crossing switches at a reduced speed of 40 km/h as a general rule; speed to be applied from the chevron (RF1) to the next signal or speedometer.|
 
 [RF4]: https://github.com/izumariu/railway-signalling/raw/master/Luxembourg/Ne_3.svg
 [ERF103]: https://github.com/izumariu/railway-signalling/raw/master/Luxembourg/Signal_CFL_ERF103.png
